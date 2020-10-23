@@ -1,0 +1,15 @@
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/bin/Debug/netstandard2.0/Paevaplaan.deps.json
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/bin/Debug/netstandard2.0/Paevaplaan.dll
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/bin/Debug/netstandard2.0/ref/Paevaplaan.dll
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/bin/Debug/netstandard2.0/Paevaplaan.pdb
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Paevaplaan.csprojAssemblyReference.cache
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Paevaplaan.AssemblyInfoInputs.cache
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Paevaplaan.AssemblyInfo.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Paevaplaan.csproj.CoreCompileInputs.cache
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Paevaplaan.dll
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/ref/Paevaplaan.dll
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Paevaplaan.pdb
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Esmaspaev.xaml.g.cs
