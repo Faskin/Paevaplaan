@@ -5,13 +5,12 @@ using Xamarin.Forms;
 
 namespace Paevaplaan
 {
-    public partial class Esmaspaev : ContentPage
+    public partial class Kolmapaev : ContentPage
     {
-        public Esmaspaev()
+        public Kolmapaev()
         {
+            string[] tasks = new string[] { "Tõusen püsti", "Coding", "Coding", "Coding", "Coding", "Söön", "Magan" };
 
-            string[] tasks = new string[] { "Tõusen püsti", "Söön putru", "Jalutan", "Lähen lõunale", "Tegelen spordiga", "Söön", "Magan" };
-            
             ListView list = new ListView();
             list.ItemsSource = tasks;
             Content = new StackLayout { Children = { list } };
@@ -19,13 +18,12 @@ namespace Paevaplaan
             InitializeComponent();
         }
         string kell;
-
         private async void List_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)
             {
                 string text = e.SelectedItem.ToString();
-                if (e.SelectedItemIndex==0)
+                if (e.SelectedItemIndex == 0)
                 {
                     kell = "7:00";
                 }
@@ -67,6 +65,6 @@ namespace Paevaplaan
 
                 await DisplayAlert(kell, text, "Jah");
             }
-        }
+        } 
     }
 }

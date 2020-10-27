@@ -5,27 +5,51 @@ using Xamarin.Forms;
 
 namespace Paevaplaan
 {
-    public partial class Esmaspaev : ContentPage
+    public partial class Teisipaev : ContentPage
     {
-        public Esmaspaev()
+        public Teisipaev()
         {
+            string[] tasks = new string[] { "Tõusen püsti", "Coding", "Coding", "Coding", "Coding", "Söön", "Magan" };
 
-            string[] tasks = new string[] { "Tõusen püsti", "Söön putru", "Jalutan", "Lähen lõunale", "Tegelen spordiga", "Söön", "Magan" };
-            
+            InitializeComponent();
             ListView list = new ListView();
             list.ItemsSource = tasks;
             Content = new StackLayout { Children = { list } };
             list.ItemSelected += List_ItemSelected;
-            InitializeComponent();
-        }
-        string kell;
+            /*var Template = new DataTemplate(() =>
+            {
+                var grid = new Grid();
 
+                var nametasks = new Label { FontAttributes = FontAttributes.Bold };
+                var namekell = new Label { HorizontalTextAlignment = TextAlignment.End };
+
+                nametasks.SetBinding(Label.TextProperty, "Task");
+                namekell.SetBinding(Label.TextProperty, "kell");
+
+                grid.Children.Add(nametasks);
+                grid.Children.Add(namekell, 2, 0);
+
+                return new ViewCell { View = grid };
+            });
+            
+            Content = new StackLayout
+            {
+                Margin = new Thickness(20),
+                Children = {
+                new ListView  { ItemsSource = tasks, ItemTemplate = Template, Margin = new Thickness(0, 20, 0, 0) }
+            }
+            };*/
+        }
+
+    
+
+        string kell;
         private async void List_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)
             {
                 string text = e.SelectedItem.ToString();
-                if (e.SelectedItemIndex==0)
+                if (e.SelectedItemIndex == 0)
                 {
                     kell = "7:00";
                 }

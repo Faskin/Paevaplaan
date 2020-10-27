@@ -13,3 +13,9 @@
 /Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/ref/Paevaplaan.dll
 /Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Paevaplaan.pdb
 /Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Esmaspaev.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Teisipaev.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Kolmapaev.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Laupaev.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Neljapaev.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Puhapaev.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Reede.xaml.g.cs

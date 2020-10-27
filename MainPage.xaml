@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>  
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Paevaplaan" x:Class="Paevaplaan.MainPage" Title="Paevaplaan">  
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">  
-        <Button Text="Esmaspaev" Clicked="Button_Clicked"  BackgroundColor="AliceBlue"/>
-        <Button Text="Teisipaev" Clicked="Button_Clicked"  BackgroundColor="AliceBlue"/>
-        <Button Text="Kolmapaev" Clicked="Button_Clicked"  BackgroundColor="AliceBlue"/>
-        <Button Text="Neljapaev" Clicked="Button_Clicked"  BackgroundColor="AliceBlue"/>
-        <Button Text="Reede" Clicked="Button_Clicked"  BackgroundColor="AliceBlue"/>
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Fill">  
+        <Button Text="Esmaspaev" Clicked="Button_Clicked1"  BackgroundColor="AliceBlue"/>
+        <Button Text="Teisipaev" Clicked="Button_Clicked2"  BackgroundColor="AliceBlue"/>
+        <Button Text="Kolmapaev" Clicked="Button_Clicked3"  BackgroundColor="AliceBlue"/>
+        <Button Text="Neljapaev" Clicked="Button_Clicked4"  BackgroundColor="AliceBlue"/>
+        <Button Text="Reede" Clicked="Button_Clicked5"  BackgroundColor="AliceBlue"/>
+        <Button Text="Laupäev" Clicked="Button_Clicked6"  BackgroundColor="AliceBlue"/>
+        <Button Text="Pühapäev" Clicked="Button_Clicked7"  BackgroundColor="AliceBlue"/>
     </StackLayout>  
 </ContentPage>  
