@@ -13,6 +13,10 @@ namespace Paevaplaan
 
             InitializeComponent();
             ListView list = new ListView();
+            {
+                BackgroundColor = Color.Aqua;
+                list.HorizontalOptions = LayoutOptions.End;
+            }
             list.ItemsSource = tasks;
             Content = new StackLayout { Children = { list } };
             list.ItemSelected += List_ItemSelected;

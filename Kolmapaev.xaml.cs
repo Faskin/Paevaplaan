@@ -10,12 +10,29 @@ namespace Paevaplaan
         public Kolmapaev()
         {
             string[] tasks = new string[] { "Tõusen püsti", "Coding", "Coding", "Coding", "Coding", "Söön", "Magan" };
+            
+            InitializeComponent();
+            var Template = new DataTemplate(() =>
+            {
+                var grid = new Grid();
 
+                var nametasks = new Label { FontAttributes = FontAttributes.Bold };
+                var namekell = new Label { HorizontalTextAlignment = TextAlignment.End };
+
+                nametasks.SetBinding(Label.TextProperty, "Task");
+                namekell.SetBinding(Label.TextProperty, "kell");
+
+                grid.Children.Add(nametasks);
+                grid.Children.Add(namekell, 2, 0);
+
+                return new ViewCell { View = grid };
+            });
             ListView list = new ListView();
+            list.ItemTemplate = Template;
             list.ItemsSource = tasks;
             Content = new StackLayout { Children = { list } };
             list.ItemSelected += List_ItemSelected;
-            InitializeComponent();
+
         }
         string kell;
         private async void List_ItemSelected(object sender, SelectedItemChangedEventArgs e)
