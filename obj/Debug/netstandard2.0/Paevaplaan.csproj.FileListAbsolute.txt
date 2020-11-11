@@ -19,3 +19,5 @@
 /Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Neljapaev.xaml.g.cs
 /Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Puhapaev.xaml.g.cs
 /Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/Reede.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/textToSpeech.xaml.g.cs
+/Users/alekseistaiger/Projects/Paevaplaan/Paevaplaan/obj/Debug/netstandard2.0/MapPage.xaml.g.cs

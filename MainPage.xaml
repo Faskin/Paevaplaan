@@ -8,5 +8,7 @@
         <Button Text="Reede" Clicked="Button_Clicked5"  BackgroundColor="AliceBlue"/>
         <Button Text="Laupäev" Clicked="Button_Clicked6"  BackgroundColor="AliceBlue"/>
         <Button Text="Pühapäev" Clicked="Button_Clicked7"  BackgroundColor="AliceBlue"/>
+        <Button Text="Text To Speech" Clicked="Button_Clicked8"  BackgroundColor="AliceBlue"/>
+        <Button Text="Map" Clicked="Button_Clicked9"  BackgroundColor="AliceBlue"/>
     </StackLayout>  
 </ContentPage>  

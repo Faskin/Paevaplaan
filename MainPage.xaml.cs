@@ -59,5 +59,14 @@ namespace Paevaplaan
         {
             await Navigation.PushAsync(new Puhapaev());
         }
+
+        async void Button_Clicked8(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new textToSpeech());
+        }
+        async void Button_Clicked9(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MapPage());
+        }
     }
 }
